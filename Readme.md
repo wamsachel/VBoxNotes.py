@@ -1,13 +1,11 @@
 VBoxNotes.py
 
 ===MOTIVATION===
-The motivation for this project stems from the fact that I like to edit a VM's 'Details' value to help keep track
+The motivation for this project stems from the fact that I like to edit a VM's 'Description' value to help keep track
 of information related to that VM (e.g. created usernames and passwords, ongoing projects inside the VM,
 workarounds to problems encountered, etc.).  Sometimes, Virtual Machines can be shelved for long periods of times, 
-and when finally called upon I find myself forgetting things such as the username and password I had create for the
-machine.  Modifying the VM's 'Details' proves to be just an 'OK' solution for  keeping notes on a VM.  In order to 
-enter multiple lines, one needs to remember to hit Shift-Enter to create a new line, 
-as striking Enter alone will commit your notes and exit the 'Details' interface.  Just a slight nuisance.
+and when finally called upon I find myself forgetting things such as the username and password I had created for the
+machine.  
 
 VBoxNotes.py has a very simplistic feature set.  It can print out the notes stored on a particular VM 
 (in fact, this is the default option), or it can write new notes to the .vbox-notes.txt file.  New notes can 
