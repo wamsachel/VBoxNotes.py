@@ -16,16 +16,16 @@ option (-q) that suppresses the output of the previously stored VM notes.
 
 ===Requirements===
 VBoxNotes.py has been tested on:
-    Windows 7 Host OS (64-bit) running Python 2.7 and VirtualBox 4.2.4
-    Backbox 3.0 Host OS (32-bit) running Python 2.7 and VirtualBox 4.2.2
+Windows 7 Host OS (64-bit) running Python 2.7 and VirtualBox 4.2.4
+Backbox 3.0 Host OS (32-bit) running Python 2.7 and VirtualBox 4.2.2
     
-    Python module vboxapi
-      For Windows, I needed to run the vboxapisetup.py script (as administrator):
-        >python VBOX_DIR\sdk\install\vboxapisetup.py build
-        >python VBOX_DIR\sdk\install\vboxapisetup.py install
+Python module vboxapi
+  For Windows, I needed to run the vboxapisetup.py script (as administrator):
+ \>python VBOX_DIR\sdk\install\vboxapisetup.py build
+ \>python VBOX_DIR\sdk\install\vboxapisetup.py install
         
-      Also for Windows, I needed to get the win32com module.  Install Python Windows Extentions
-      found here (http://sourceforge.net/projects/pywin32/?source=dlp)
+  Also for Windows, I needed to get the win32com module.  Install Python Windows Extentions
+  found here (http://sourceforge.net/projects/pywin32/?source=dlp)
       
 ===Installation===
 VBoxNotes.py can really be placed anywhere.  I have been placing mine in the VirtualBox's install directory
@@ -43,8 +43,8 @@ contents into the note file.
 Using -w with no -f flag, will allow the user to enter notes via STDIN.  
 
 Example:
->python VBoxNotes.py tails -w
-<Older notes printed here>
+\>python VBoxNotes.py tails -w
+\<Older notes printed here\>
 Enter any notes you would like saved with this Virtual Machine
 (Press Ctrl-C when done):
 :Testing testing
@@ -53,4 +53,4 @@ Enter any notes you would like saved with this Virtual Machine
 Ctrl-C
 3 lines written to <File Path>\tails.vbox-notes.txt
 
->
+\>
